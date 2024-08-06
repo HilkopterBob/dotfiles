@@ -1,7 +1,8 @@
 # dotfiles
 This is my dotfiles Repository, containing all of my important dotfiles.
 
-![Example1](https://github.com/HilkopterBob/dotfiles/blob/main/example1.png?raw=true) 
+![Example1](https://github.com/HilkopterBob/dotfiles/blob/main/example1.png?raw=true)  
+![Example1](https://github.com/HilkopterBob/dotfiles/blob/main/example2.png?raw=true)  
 
 ## Software needed to replicate & contents
 - Hyprland, Hyprlock, Hypridle
