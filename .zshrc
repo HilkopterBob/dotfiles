@@ -44,6 +44,9 @@ alias ls=lsd
 alias cd=z
 alias reload="source ~/.zshrc"
 alias cat='bat --theme="Catppuccin Mocha"'
+alias gotestsum="go run gotest.tools/gotestsum@latest"
+
+
 # Created by `pipx` on 2024-02-20 06:56:46
 export PATH="$PATH:/home/nick/.local/bin"
 
