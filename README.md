@@ -14,6 +14,10 @@ This is my dotfiles Repository, containing all of my important dotfiles.
 - nvim
 - swaync
 
+### No-Conf Software:
+- ly (kept stock)
+
+
 ## Usage
 
 1. clone into $HOME (~/) & cd  
