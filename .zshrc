@@ -45,7 +45,7 @@ alias cd=z
 alias reload="source ~/.zshrc"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias gotestsum="go run gotest.tools/gotestsum@latest"
-alias posrtgres='sudo docker run --name my-postgres --env POSTGRES_PASSWORD=admin --volume postgres-volume:/var/lib/postgresql/data --publish 5432:5432 --detach postgres'
+alias postgres='sudo docker run --name my-postgres --env POSTGRES_PASSWORD=admin --volume postgres-volume:/var/lib/postgresql/data --publish 5432:5432 --detach postgres'
 
 # Created by `pipx` on 2024-02-20 06:56:46
 export PATH="$PATH:/home/nick/.local/bin"
