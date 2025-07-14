@@ -10,13 +10,37 @@ plugins = [
  "workspaces_follow_focus",
 ]
 
-# using variables for demonstration purposes (not needed)
-[pyprland.variables]
-term_classed = "kitty --class"
-
 [scratchpads.term]
 animation = "fromTop"
-command = "[term_classed] main-dropterm"
-class = "main-dropterm"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
 size = "75% 60%"
 max_size = "1920px 100%"
+margin = 50
+
+[scratchpads.volume]
+animation = "fromLeft"
+command = "pavucontrol"
+class = "org.pulseaudio.pavucontrol"
+size = "40% 90%"
+unfocus = "hide"
+lazy = true
+
+[scratchpads.bluetooth]
+animation = "fromLeft"
+command = "blueman-manager"
+class = "blueman-manager.sidebar"
+size = "40% 90%"
+unfocus = "hide"
+lazy = true
+
+[scratchpads.scratch_teams]
+animation = "fromTop"
+command = "com.github.IsmaelMartinez.teams_for_linux"
+class = "teams-for-linux"
+match_by = "class"
+process_tracking = false
+size = "40% 90%"
+unfocus = "hide"
+lazy = true
+skip_windowrules = ["aspect", "workspace", "float"]

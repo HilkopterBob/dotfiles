@@ -11,6 +11,7 @@ plugins=(
     archlinux
     zsh-autosuggestions
     zsh-syntax-highlighting
+    fzf-tab
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -37,6 +38,8 @@ source $ZSH/oh-my-zsh.sh
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
+zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
+
 #-------------------------------------------------------------------------------------#
 #					Aliases					      #
 #-------------------------------------------------------------------------------------#
@@ -46,6 +49,8 @@ alias reload="source ~/.zshrc"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias gotestsum="go run gotest.tools/gotestsum@latest"
 alias postgres='sudo docker run --name my-postgres --env POSTGRES_PASSWORD=admin --volume postgres-volume:/var/lib/postgresql/data --publish 5432:5432 --detach postgres'
+alias gradlew='./gradlew'
+
 
 # Created by `pipx` on 2024-02-20 06:56:46
 export PATH="$PATH:/home/nick/.local/bin"
@@ -54,3 +59,5 @@ export PATH="$PATH:/home/nick/Downloads/Keylockertools-linux-x64/"
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+
+tmux
