@@ -20,6 +20,7 @@
 
   "modules-right": [
     "tray",
+    "custom/life-wallpaper",
     "bluetooth",
     "group/audio",
   ]
