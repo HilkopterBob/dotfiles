@@ -15,7 +15,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
+. "$HOME/.cargo/env" 
 # Check archlinux plugin commands here
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
 
