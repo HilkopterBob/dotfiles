@@ -34,6 +34,13 @@ size = "40% 90%"
 unfocus = "hide"
 lazy = true
 
+[scratchpads.librepods]
+animation = "fromTop"
+command = "librepods"
+size = "40% 90%"
+unfocus = "hide"
+lazy = true
+
 [scratchpads.scratch_teams]
 animation = "fromTop"
 command = "com.github.IsmaelMartinez.teams_for_linux"
