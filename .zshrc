@@ -51,7 +51,8 @@ alias cat='bat --theme="Catppuccin Mocha"'
 alias gotestsum="go run gotest.tools/gotestsum@latest"
 alias postgres='sudo docker run --name my-postgres --env POSTGRES_PASSWORD=admin --volume postgres-volume:/var/lib/postgresql/data --publish 5432:5432 --detach postgres'
 alias gradlew='./gradlew'
-
+alias cp='cpx'
+alias s='sudo'
 
 # Created by `pipx` on 2024-02-20 06:56:46
 export PATH="$PATH:/home/nick/.local/bin"
